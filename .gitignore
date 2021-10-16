@@ -1,0 +1,65 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+**/open2021/**/node_modules
+**/open2021/**/.env
+**/**/**/node_modules
+**/**/node_modules
+**/node_modules
+**/**/.env
+**/.env
+*.env
+**/open2021//part3/.env
+
+**/**/part1/courseinfo/node_modules
+**/**/part1/unicafe/node_modules
+**/part1/anecdotes/node_modules
+**/**/part2/**/node_modules
+
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+reff.txt
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# removing git from the project.
+rm -rf .git
+.env
